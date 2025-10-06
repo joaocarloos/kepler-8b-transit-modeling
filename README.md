@@ -1,16 +1,13 @@
 # Modelagem de Trânsito planetário
 
-Este projeto foi desenvolvido como [**Trabalho de Conclusão de Curso (TCC)**](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjawYuO--6NAxUGuJUCHaSYIucQFnoECBMQAQ&url=https%3A%2F%2Fwww.unifal-mg.edu.br%2Ffisica%2Fwp-content%2Fuploads%2Fsites%2F110%2F2022%2F10%2FTCC_Joao-Carlos-Pereira-Alves.pdf&usg=AOvVaw0pouHROqZMf-S_zJFthqI-&opi=89978449) da minha graduação em Física pela Universidade Federal de Alfenas (UNIFAL-MG), e foi [defendido e aprovado](https://www.unifal-mg.edu.br/fisica/wp-content/uploads/sites/110/2022/10/TCCApres_Joao-Carlos-Pereira-Alves.pdf) em [abril de 2021](https://www.unifal-mg.edu.br/fisica/2021-tcc-apresentados/).
+Este projeto foi desenvolvido como [**Trabalho de Conclusão de Curso (TCC)**](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjawYuO--6NAxUGuJUCHaSYIucQFnoECBMQAQ&url=https%3A%2F%2Fwww.unifal-mg.edu.br%2Ffisica%2Fwp-content%2Fuploads%2Fsites%2F110%2F2022%2F10%2FTCC_Joao-Carlos-Pereira-Alves.pdf&usg=AOvVaw0pouHROqZMf-S_zJFthqI-&opi=89978449) da minha graduação em Física pela Universidade Federal de Alfenas (UNIFAL-MG), e foi [defendido e aprovado](https://www.unifal-mg.edu.br/fisica/wp-content/uploads/sites/110/2022/10/TCCApres_Joao-Carlos-Pereira-Alves.pdf) em [abril de 2021](https://www.unifal-mg.edu.br/fisica/2021-tcc-apresentados/). Recentemente, expandi o escopo para incluir a modelagem dos três exoplanetas do sistema TOI-270.
 
 Ele marca o início da minha jornada com programação em Python, modelagem matemática e análise de dados astronômicos, e representa uma das minhas primeiras experiências práticas com ciência de dados. Nele apresentamos um estudo realizado a partir da modelagem do trânsito planetário do exoplaneta **Kepler-8b**. Discutimos a técnica de trânsito planetário e os parâmetros físicos que podem ser estimados a partir da modelagem da curva de luz. Utilizamos dados reais obtidos pelo telescópio espacial **Kepler** e desenvolvemos um código para simular o trânsito, ajustar o modelo aos dados observacionais e estimar os parâmetros orbitais do exoplaneta.
 
 Os resultados mostraram boa concordância com os valores publicados na literatura, demonstrando a efetividade do algoritmo implementado.
 
 ## Objetivo
-- Simular a curva de luz do exoplaneta Kepler-8b durante seu trânsito estelar
-- Ajustar o modelo aos dados observacionais do telescópio Kepler
-- Estimar parâmetros orbitais do planeta
-- Comparar os resultados com valores disponíveis na literatura
+O objetivo principal é utilizar dados de telescópios espaciais, como o Kepler e o TESS, para simular as curvas de luz de trânsitos planetários, ajustar modelos aos dados observacionais e estimar os parâmetros físicos e orbitais dos sistemas estudados.
 
 ## Bibliotecas e tecnologias utilizadas
 - `numpy`
